@@ -1,0 +1,326 @@
+[
+  {
+    "product_id": "001",
+    "product_title": "Samsung Galaxy S23",
+    "product_image": "https://cdn.thewirecutter.com/wp-content/media/2024/09/iphone-2048px-6990-2x1-1.jpg",
+    "category": "Smartphone",
+    "price": 799.99,
+    "description": "Samsung Galaxy S23 with 8GB RAM and 256GB storage.",
+    "Specification": [
+      "8GB RAM",
+      "256GB Storage",
+      "Snapdragon 8 Gen 2",
+      "AMOLED Display",
+      "5000mAh Battery"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "002",
+    "product_title": "Apple iPhone 14 Pro",
+    "product_image": "https://cdn.thewirecutter.com/wp-content/media/2024/09/iphone-2048px-6990-2x1-1.jpg",
+    "category": "Smartphone",
+    "price": 999.99,
+    "description": "Apple iPhone 14 Pro with 128GB storage and A16 Bionic chip.",
+    "Specification": [
+      "128GB Storage",
+      "A16 Bionic Chip",
+      "Super Retina XDR Display",
+      "Triple Camera System",
+      "iOS 16"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "003",
+    "product_title": "Dell XPS 15",
+    "product_image": "https://cdn.thewirecutter.com/wp-content/media/2024/09/iphone-2048px-6990-2x1-1.jpg",
+    "category": "Laptop",
+    "price": 1599.99,
+    "description": "Dell XPS 15 with Intel i7, 16GB RAM, and 512GB SSD.",
+    "Specification": [
+      "Intel i7 12th Gen",
+      "16GB RAM",
+      "512GB SSD",
+      "NVIDIA RTX 3050",
+      "15.6-inch 4K Display"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "004",
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://cdn.thewirecutter.com/wp-content/media/2024/09/iphone-2048px-6990-2x1-1.jpg",
+    "category": "Headphones",
+    "price": 349.99,
+    "description": "Sony WH-1000XM5 Wireless Noise-Canceling Headphones.",
+    "Specification": [
+      "Noise Cancelling",
+      "30 Hours Battery Life",
+      "Bluetooth 5.2",
+      "Quick Charge",
+      "Hi-Res Audio"
+    ],
+    "availability": false,
+    "rating": 4.8
+  },
+  {
+    "product_id": "005",
+    "product_title": "Apple MacBook Air M2",
+    "product_image": "https://cdn.thewirecutter.com/wp-content/media/2024/09/iphone-2048px-6990-2x1-1.jpg",
+    "category": "Laptop",
+    "price": 1199.99,
+    "description": "Apple MacBook Air M2 with 8GB RAM and 256GB SSD.",
+    "Specification": [
+      "Apple M2 Chip",
+      "8GB RAM",
+      "256GB SSD",
+      "Retina Display",
+      "macOS Ventura"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "006",
+    "product_title": "Samsung 55-inch QLED TV",
+    "product_image": "https://cdn.thewirecutter.com/wp-content/media/2024/09/iphone-2048px-6990-2x1-1.jpg",
+    "category": "Television",
+    "price": 1299.99,
+    "description": "Samsung 55-inch QLED Smart TV with 4K UHD resolution.",
+    "Specification": [
+      "4K UHD",
+      "Quantum Dot Technology",
+      "120Hz Refresh Rate",
+      "HDR10+",
+      "Smart TV Features"
+    ],
+    "availability": false,
+    "rating": 4.6
+  },
+  {
+    "product_id": "007",
+    "product_title": "Bose SoundLink Revolve+",
+    "product_image": "https://example.com/bosespeaker.jpg",
+    "category": "Speaker",
+    "price": 299.99,
+    "description": "Bose SoundLink Revolve+ Bluetooth Speaker with 360-degree sound.",
+    "Specification": [
+      "360-degree Sound",
+      "Bluetooth 5.0",
+      "12 Hours Battery Life",
+      "Water-resistant",
+      "Built-in Microphone"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "008",
+    "product_title": "Google Pixel 7 Pro",
+    "product_image": "https://example.com/pixel7pro.jpg",
+    "category": "Smartphone",
+    "price": 899.99,
+    "description": "Google Pixel 7 Pro with Google Tensor G2 chip and 120Hz AMOLED display.",
+    "Specification": [
+      "Google Tensor G2",
+      "12GB RAM",
+      "128GB Storage",
+      "50MP Triple Camera",
+      "Android 13"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "009",
+    "product_title": "OnePlus 11",
+    "product_image": "https://example.com/oneplus11.jpg",
+    "category": "Smartphone",
+    "price": 799.99,
+    "description": "OnePlus 11 with Snapdragon 8 Gen 2 and 80W fast charging.",
+    "Specification": [
+      "Snapdragon 8 Gen 2",
+      "16GB RAM",
+      "256GB Storage",
+      "5000mAh Battery",
+      "120Hz AMOLED Display"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+
+  {
+    "product_id": "010",
+    "product_title": "LG UltraGear 27-inch Gaming Monitor",
+    "product_image": "https://example.com/lgmonitor.jpg",
+    "category": "Monitor",
+    "price": 499.99,
+    "description": "LG UltraGear 27-inch 144Hz QHD Gaming Monitor with G-Sync.",
+    "Specification": [
+      "27-inch QHD",
+      "144Hz Refresh Rate",
+      "G-Sync Compatible",
+      "1ms Response Time",
+      "HDR10 Support"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "011",
+    "product_title": "Corsair K95 RGB Mechanical Keyboard",
+    "product_image": "https://example.com/corsairk95.jpg",
+    "category": "Keyboard",
+    "price": 199.99,
+    "description": "Corsair K95 RGB Platinum Mechanical Gaming Keyboard with Cherry MX Speed switches.",
+    "Specification": [
+      "Cherry MX Speed Switches",
+      "RGB Backlighting",
+      "6 Programmable Macro Keys",
+      "Aluminum Frame",
+      "USB Pass-Through"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "012",
+    "product_title": "Logitech MX Master 3S Wireless Mouse",
+    "product_image": "https://example.com/mxmaster3s.jpg",
+    "category": "Mouse",
+    "price": 99.99,
+    "description": "Logitech MX Master 3S Advanced Wireless Mouse with ultra-fast scrolling and ergonomic design.",
+    "Specification": [
+      "Ergonomic Design",
+      "Ultrafast Scrolling",
+      "4000 DPI Sensor",
+      "USB-C Rechargeable",
+      "Multi-Device Pairing"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "013",
+    "product_title": "Asus ROG Strix RTX 4080 GPU",
+    "product_image": "https://example.com/asusrtx4080.jpg",
+    "category": "Graphics Card",
+    "price": 1399.99,
+    "description": "Asus ROG Strix NVIDIA GeForce RTX 4080 Gaming Graphics Card with 16GB GDDR6X.",
+    "Specification": [
+      "16GB GDDR6X",
+      "Ray Tracing Technology",
+      "3rd Gen Tensor Cores",
+      "Boost Clock 2505 MHz",
+      "PCIe 4.0 Support"
+    ],
+    "availability": false,
+    "rating": 4.8
+  },
+  {
+    "product_id": "014",
+    "product_title": "Western Digital 2TB NVMe SSD",
+    "product_image": "https://example.com/wd2tbssd.jpg",
+    "category": "Storage",
+    "price": 249.99,
+    "description": "Western Digital Black SN850X 2TB NVMe SSD with Gen4 speeds up to 7300MB/s.",
+    "Specification": [
+      "2TB NVMe SSD",
+      "Gen4 PCIe",
+      "7300MB/s Read Speed",
+      "Enhanced Thermal Management",
+      "WD Dashboard Support"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "015",
+    "product_title": "Razer DeathAdder V2 Gaming Mouse",
+    "product_image": "https://example.com/razerdeathadderv2.jpg",
+    "category": "Mouse",
+    "price": 69.99,
+    "description": "Razer DeathAdder V2 Ergonomic Gaming Mouse with 20K DPI Optical Sensor.",
+    "Specification": [
+      "20K DPI Optical Sensor",
+      "Razer Speedflex Cable",
+      "5 Onboard Memory Profiles",
+      "RGB Chroma Lighting",
+      "Ergonomic Design"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "016",
+    "product_title": "HyperX Cloud II Gaming Headset",
+    "product_image": "https://example.com/hyperxcloudii.jpg",
+    "category": "Headphones",
+    "price": 99.99,
+    "description": "HyperX Cloud II Gaming Headset with 7.1 Virtual Surround Sound.",
+    "Specification": [
+      "7.1 Virtual Surround Sound",
+      "Memory Foam Ear Cushions",
+      "Detachable Noise-Canceling Microphone",
+      "53mm Drivers",
+      "Aluminum Frame"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "017",
+    "product_title": "Sony PlayStation 5",
+    "product_image": "https://example.com/ps5.jpg",
+    "category": "Gaming Console",
+    "price": 499.99,
+    "description": "Sony PlayStation 5 Gaming Console with Ultra HD Blu-ray and SSD storage.",
+    "Specification": [
+      "Ultra HD Blu-ray Drive",
+      "825GB SSD Storage",
+      "Ray Tracing Support",
+      "120Hz Gaming",
+      "Haptic Feedback Controller"
+    ],
+    "availability": false,
+    "rating": 4.9
+  },
+  {
+    "product_id": "018",
+    "product_title": "Microsoft Xbox Series X",
+    "product_image": "https://example.com/xboxseriesx.jpg",
+    "category": "Gaming Console",
+    "price": 499.99,
+    "description": "Microsoft Xbox Series X with 1TB SSD and 4K gaming support.",
+    "Specification": [
+      "1TB SSD Storage",
+      "4K UHD Gaming",
+      "120FPS Support",
+      "Ray Tracing Technology",
+      "Xbox Game Pass Ready"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "019",
+    "product_title": "Samsung T7 1TB Portable SSD",
+    "product_image": "https://example.com/samsungt7.jpg",
+    "category": "Storage",
+    "price": 149.99,
+    "description": "Samsung T7 Portable SSD with 1TB storage and USB 3.2 Gen 2 interface.",
+    "Specification": [
+      "1TB Storage",
+      "USB 3.2 Gen 2",
+      "1050MB/s Read Speed",
+      "Shock Resistant",
+      "Compact Design"
+    ],
+    "availability": true,
+    "rating": 4.7
+  }
+]
