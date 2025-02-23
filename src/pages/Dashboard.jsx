@@ -29,7 +29,7 @@ const Dashboard = () => {
   };
 
   const handleSort = () => {
-    cartItems.sort((a, b) => a.price - b.price);
+    cartItems.sort((a, b) => b.price - a.price);
     setCartItems([...cartItems]);
   };
 

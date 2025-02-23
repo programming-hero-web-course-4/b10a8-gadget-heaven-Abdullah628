@@ -1,6 +1,6 @@
 
 
-const About = () => {
+const Statistics = () => {
     return (
         <div>
             about
@@ -8,4 +8,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default Statistics;
