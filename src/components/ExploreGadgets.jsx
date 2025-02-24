@@ -4,7 +4,7 @@ import { Link, useLoaderData } from "react-router-dom";
 
 const ExploreGadgets = () => {
   const products = useLoaderData();
-  console.log("dddddddddaAAA", products);
+  
 
   const [categories, setCategories] = useState([]);
   const [selectCategory, setSelectCategory] = useState("All Product");

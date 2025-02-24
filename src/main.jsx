@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './index.css'
 import App from './App.jsx'
-import Statistics from './pages/Statistics.jsx';
+
 import ErrorPage from './components/ErrorPage.jsx';
 // import AppRoutes from './routes/AppRoutes.jsx';
 import Home from './pages/Home.jsx';
@@ -36,11 +36,7 @@ const router = createBrowserRouter([
         element: <GadgetUpdate />,
       }
     ]
-  },
-  {
-    path: "/Statistics",
-    element: <Statistics />,
-  },
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(

@@ -1,5 +1,6 @@
 
 import { CartItemsContext, WishListContext } from "../context/contextData";
+import image from "../assets/Group.png"
 
 import { RxCross2 } from "react-icons/rx";
 import { HiAdjustmentsVertical } from "react-icons/hi2";
@@ -13,6 +14,7 @@ const Dashboard = () => {
   const [cartItems, setCartItems] = useContext(CartItemsContext);
   const [wishList, setWishList] = useContext(WishListContext);
   const [showCart, setShowCart] = useState(true);
+  const [showSuccessModal, setShowSuccessModal] = useState(false)
 
   console.log("cartItems", cartItems);
 
@@ -70,6 +72,18 @@ const Dashboard = () => {
       localStorage.setItem("cartItems", JSON.stringify([...cartItems, product]));
     };
 
+    const handlePurchase = () => {
+      setShowSuccessModal(true)
+            
+    }
+
+    const handleCloseModal = () => {
+      setShowSuccessModal(false)
+      setCartItems([])
+      // Clear cart items from localStorage
+      localStorage.setItem("cartItems", JSON.stringify([]))
+    }
+
   const total = cartItems.reduce((sum, item) => sum + item.price, 0);
 
   return (
@@ -102,7 +116,7 @@ const Dashboard = () => {
               Sort by Price <HiAdjustmentsVertical size={20} />
             </button>
             {/* <Button bgColor={"#9538E2"} text={"Purchase"} textColor={"#fff"} /> */}
-            <button onClick={() => alert("Purchased")} className="bg-[#9538E2]  text-[#fff] py-2 px-4 rounded-full cursor-pointer transition-colors duration-300">Purchase</button>
+            <button onClick={handlePurchase} className="bg-[#9538E2]  text-[#fff] py-2 px-4 rounded-full cursor-pointer transition-colors duration-300">Purchase</button>
           </div> : ""}
         </div>
 
@@ -130,6 +144,32 @@ const Dashboard = () => {
             </div>
           ))}
         </div>
+
+
+        {/* Success Modal */}
+      {showSuccessModal && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-lg p-8 max-w-[400px] w-full mx-4 transform transition-all">
+            {/* Checkmark Icon */}
+            <div className="mx-auto w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
+              <img src={image} alt="Checkmark" className="w-8 h-8 text-green-500" />
+            </div>
+
+            {/* Modal Content */}
+            <div className="text-center">
+              <h3 className="text-xl font-semibold mb-2">Payment Successfully</h3>
+              <p className="text-gray-600 mb-2">Thanks for purchasing.</p>
+              <p className="text-sm text-gray-500 mb-6">Total: ${total.toFixed(2)}</p>
+              <button
+                onClick={handleCloseModal}
+                className="w-full bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium py-2 px-4 rounded-md transition-colors duration-200"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
       </div>
     </div>
   );

@@ -16,9 +16,9 @@ function Navbar() {
       </div>
       <ul className="flex gap-3 text-[#403f3f]"> 
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/Statistics">Statistics</Link></li>
+       
         <li><Link to="/dashboard">Dashboard</Link></li>
-        <li><Link to="/gadget-update">Gadget Update</Link></li>
+        <li><Link to="/gadget-update">Gadget-Update</Link></li>
       </ul>
 
       <div className="flex gap-3 text-2xl text-[#403f3f] relative">
