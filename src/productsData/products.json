@@ -33,23 +33,7 @@
     "availability": true,
     "rating": 4.7
   },
-  {
-    "product_id": "003",
-    "product_title": "Dell XPS 15",
-    "product_image": "https://m.media-amazon.com/images/I/81WmJt+OZoL._SL1500_.jpg",
-    "category": "Laptop",
-    "price": 1599.99,
-    "description": "Dell XPS 15 with Intel i7, 16GB RAM, and 512GB SSD.",
-    "Specification": [
-      "Intel i7 12th Gen",
-      "16GB RAM",
-      "512GB SSD",
-      "NVIDIA RTX 3050",
-      "15.6-inch 4K Display"
-    ],
-    "availability": true,
-    "rating": 4.6
-  },
+  
   {
     "product_id": "004",
     "product_title": "Sony WH-1000XM5",
@@ -101,44 +85,12 @@
     "availability": false,
     "rating": 4.6
   },
-  {
-    "product_id": "007",
-    "product_title": "Bose SoundLink Revolve+",
-    "product_image": "https://m.media-amazon.com/images/I/61WgLgOogBL._SL1500_.jpg",
-    "category": "Speaker",
-    "price": 299.99,
-    "description": "Bose SoundLink Revolve+ Bluetooth Speaker with 360-degree sound.",
-    "Specification": [
-      "360-degree Sound",
-      "Bluetooth 5.0",
-      "12 Hours Battery Life",
-      "Water-resistant",
-      "Built-in Microphone"
-    ],
-    "availability": true,
-    "rating": 4.5
-  },
-  {
-    "product_id": "008",
-    "product_title": "Google Pixel 7 Pro",
-    "product_image": "https://m.media-amazon.com/images/I/71ee+5Yxp8L._SL1500_.jpg",
-    "category": "Smartphone",
-    "price": 899.99,
-    "description": "Google Pixel 7 Pro with Google Tensor G2 chip and 120Hz AMOLED display.",
-    "Specification": [
-      "Google Tensor G2",
-      "12GB RAM",
-      "128GB Storage",
-      "50MP Triple Camera",
-      "Android 13"
-    ],
-    "availability": true,
-    "rating": 4.6
-  },
+ 
+  
   {
     "product_id": "009",
     "product_title": "OnePlus 11",
-    "product_image": "https://m.media-amazon.com/images/I/61hI9YpZ1ZL._SL1500_.jpg",
+    "product_image": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-11.jpg",
     "category": "Smartphone",
     "price": 799.99,
     "description": "OnePlus 11 with Snapdragon 8 Gen 2 and 80W fast charging.",
@@ -152,108 +104,10 @@
     "availability": true,
     "rating": 4.7
   },
-  {
-    "product_id": "010",
-    "product_title": "LG UltraGear 27-inch Gaming Monitor",
-    "product_image": "https://m.media-amazon.com/images/I/81jFZ5z9ZoL._SL1500_.jpg",
-    "category": "Monitor",
-    "price": 499.99,
-    "description": "LG UltraGear 27-inch 144Hz QHD Gaming Monitor with G-Sync.",
-    "Specification": [
-      "27-inch QHD",
-      "144Hz Refresh Rate",
-      "G-Sync Compatible",
-      "1ms Response Time",
-      "HDR10 Support"
-    ],
-    "availability": true,
-    "rating": 4.7
-  },
-  {
-    "product_id": "011",
-    "product_title": "Corsair K95 RGB Mechanical Keyboard",
-    "product_image": "https://m.media-amazon.com/images/I/71Z6zjG5PZL._SL1500_.jpg",
-    "category": "Keyboard",
-    "price": 199.99,
-    "description": "Corsair K95 RGB Platinum Mechanical Gaming Keyboard with Cherry MX Speed switches.",
-    "Specification": [
-      "Cherry MX Speed Switches",
-      "RGB Backlighting",
-      "6 Programmable Macro Keys",
-      "Aluminum Frame",
-      "USB Pass-Through"
-    ],
-    "availability": true,
-    "rating": 4.8
-  },
-  {
-    "product_id": "012",
-    "product_title": "Logitech MX Master 3S Wireless Mouse",
-    "product_image": "https://m.media-amazon.com/images/I/61xKiCADZJL._SL1500_.jpg",
-    "category": "Mouse",
-    "price": 99.99,
-    "description": "Logitech MX Master 3S Advanced Wireless Mouse with ultra-fast scrolling and ergonomic design.",
-    "Specification": [
-      "Ergonomic Design",
-      "Ultrafast Scrolling",
-      "4000 DPI Sensor",
-      "USB-C Rechargeable",
-      "Multi-Device Pairing"
-    ],
-    "availability": true,
-    "rating": 4.9
-  },
-  {
-    "product_id": "013",
-    "product_title": "Asus ROG Strix RTX 4080 GPU",
-    "product_image": "https://m.media-amazon.com/images/I/81y6CxQhEJL._SL1500_.jpg",
-    "category": "Graphics Card",
-    "price": 1399.99,
-    "description": "Asus ROG Strix NVIDIA GeForce RTX 4080 Gaming Graphics Card with 16GB GDDR6X.",
-    "Specification": [
-      "16GB GDDR6X",
-      "Ray Tracing Technology",
-      "3rd Gen Tensor Cores",
-      "Boost Clock 2505 MHz",
-      "PCIe 4.0 Support"
-    ],
-    "availability": false,
-    "rating": 4.8
-  },
-  {
-    "product_id": "014",
-    "product_title": "Western Digital 2TB NVMe SSD",
-    "product_image": "https://m.media-amazon.com/images/I/71Jd5gVq7YL._SL1500_.jpg",
-    "category": "Storage",
-    "price": 249.99,
-    "description": "Western Digital Black SN850X 2TB NVMe SSD with Gen4 speeds up to 7300MB/s.",
-    "Specification": [
-      "2TB NVMe SSD",
-      "Gen4 PCIe",
-      "7300MB/s Read Speed",
-      "Enhanced Thermal Management",
-      "WD Dashboard Support"
-    ],
-    "availability": true,
-    "rating": 4.7
-  },
-  {
-    "product_id": "015",
-    "product_title": "Razer DeathAdder V2 Gaming Mouse",
-    "product_image": "https://m.media-amazon.com/images/I/61Iq9oG3QpL._SL1500_.jpg",
-    "category": "Mouse",
-    "price": 69.99,
-    "description": "Razer DeathAdder V2 Ergonomic Gaming Mouse with 20K DPI Optical Sensor.",
-    "Specification": [
-      "20K DPI Optical Sensor",
-      "Razer Speedflex Cable",
-      "5 Onboard Memory Profiles",
-      "RGB Chroma Lighting",
-      "Ergonomic Design"
-    ],
-    "availability": true,
-    "rating": 4.6
-  },
+  
+
+ 
+  
   {
     "product_id": "016",
     "product_title": "HyperX Cloud II Gaming Headset",
@@ -274,7 +128,7 @@
   {
     "product_id": "017",
     "product_title": "Sony PlayStation 5",
-    "product_image": "https://m.media-amazon.com/images/I/51z+Nl3OT+L._SL1500_.jpg",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/gaming-console/playstation/playstation-5-analog-console-slim-edition/playstation-5-analog-console-slim-edition-01-500x500.webp",
     "category": "Gaming Console",
     "price": 499.99,
     "description": "Sony PlayStation 5 Gaming Console with Ultra HD Blu-ray and SSD storage.",
@@ -288,23 +142,7 @@
     "availability": false,
     "rating": 4.9
   },
-  {
-    "product_id": "018",
-    "product_title": "Microsoft Xbox Series X",
-    "product_image": "https://m.media-amazon.com/images/I/61vSM9CqA-L._SL1500_.jpg",
-    "category": "Gaming Console",
-    "price": 499.99,
-    "description": "Microsoft Xbox Series X with 1TB SSD and 4K gaming support.",
-    "Specification": [
-      "1TB SSD Storage",
-      "4K UHD Gaming",
-      "120FPS Support",
-      "Ray Tracing Technology",
-      "Xbox Game Pass Ready"
-    ],
-    "availability": true,
-    "rating": 4.8
-  },
+ 
   {
     "product_id": "019",
     "product_title": "Samsung T7 1TB Portable SSD",

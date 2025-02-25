@@ -127,9 +127,11 @@ const ProductDetails = () => {
         <div className="w-full md:w-1/2">
           <h1 className="text-2xl font-bold mb-4">{product.product_title}</h1>
           <p className="text-lg text-gray-700 mb-4">Price: ${product.price}</p>
-          <p className=" w-1/3 text-center mb-4 text-sm border border-green-400 rounded-full">
+          {product.availability?<p className=" w-1/3 text-center mb-4 text-sm border border-green-400 rounded-full">
             <span className="text-green-600 ">In Stock</span>
-          </p>
+          </p>: <p className=" w-1/3 text-center mb-4 text-sm border border-red-400 rounded-full">
+            <span className="text-red-600 ">Out of Stock</span>
+          </p>}
 
           <p className="text-gray-700 text-sm mb-4">
             Ultra-slim, high-performance laptop with 13.4-inch Infinity Edge

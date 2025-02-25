@@ -9,12 +9,14 @@ import { useContext, useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { getCartItems } from "../utils/dataDb";
+import { useNavigate } from "react-router-dom";
 
 const Dashboard = () => {
   const [cartItems, setCartItems] = useContext(CartItemsContext);
   const [wishList, setWishList] = useContext(WishListContext);
   const [showCart, setShowCart] = useState(true);
   const [showSuccessModal, setShowSuccessModal] = useState(false)
+  const navigate = useNavigate();
 
   console.log("cartItems", cartItems);
 
@@ -82,6 +84,8 @@ const Dashboard = () => {
       setCartItems([])
       // Clear cart items from localStorage
       localStorage.setItem("cartItems", JSON.stringify([]))
+      navigate("/")
+      
     }
 
   const total = cartItems.reduce((sum, item) => sum + item.price, 0);

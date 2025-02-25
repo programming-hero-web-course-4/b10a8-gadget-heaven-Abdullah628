@@ -1,7 +1,8 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink  } from "react-router-dom";
 import { useContext } from "react";;
 import { CartItemsContext, WishListContext } from "../context/contextData";
 import { CiShoppingCart, CiHeart } from "react-icons/ci";
+import './css/link-style.css'
 
 
 function Navbar() {
@@ -15,10 +16,9 @@ function Navbar() {
         <h1 className="text-2xl font-bold">Gadget Heaven</h1>
       </div>
       <ul className="flex gap-3 text-[#403f3f]"> 
-        <li><Link to="/">Home</Link></li>
-       
-        <li><Link to="/dashboard">Dashboard</Link></li>
-        <li><Link to="/gadget-update">Gadget-Update</Link></li>
+        <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/dashboard">Dashboard</NavLink></li>
+        <li><NavLink to="/gadget-update">Gadget-Update</NavLink></li>
       </ul>
 
       <div className="flex gap-3 text-2xl text-[#403f3f] relative">
