@@ -1,4 +1,4 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import {  useParams } from "react-router-dom";
 // import { products } from "../productsData/products"; // Import your products data
 import { FaRegStar, FaStar } from "react-icons/fa";
 import { CiHeart } from "react-icons/ci";
@@ -7,13 +7,14 @@ import { CartItemsContext, WishListContext } from "../context/contextData";
 import { getCartItems, getWishList } from "../utils/dataDb";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { products } from "../productsData/products";
 
 const ProductDetails = () => {
   const { id } = useParams(); // Get productId from the URL
   const [cartItems, setCartItems] = useContext(CartItemsContext);
   const [wishList, setWishList] = useContext(WishListContext);
 
-  const products = useLoaderData();
+  
 
   const product = products.find((p) => p.product_id === id); // Find the product
 

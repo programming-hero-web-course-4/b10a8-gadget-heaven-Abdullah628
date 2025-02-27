@@ -1,15 +1,21 @@
 import { useState, useEffect } from "react";
-// import { products } from "../productsData/products";
-import { Link, useLoaderData } from "react-router-dom";
+import { products } from "../productsData/products";
+import { Link } from "react-router-dom";
 
 const ExploreGadgets = () => {
-  const products = useLoaderData();
+  // const loaderData = useLoaderData();
+
+ 
+  
+  
   
 
   const [categories, setCategories] = useState([]);
   const [selectCategory, setSelectCategory] = useState("All Product");
   const [selectCategories, setSelectCategories] = useState(products);
   const [visibleProducts, setVisibleProducts] = useState(9); // Show 9 products initially
+
+  
 
   useEffect(() => {
     const uniqueCategories = [
@@ -69,7 +75,7 @@ const ExploreGadgets = () => {
       {/* Product Grid */}
       <div className="w-full">
         <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
-          {selectCategories.slice(0, visibleProducts).map((product) => (
+          {selectCategories.map((product) => (
             <div
               key={product.product_id}
               className="bg-[#f1f0f6] rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"

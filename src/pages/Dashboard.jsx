@@ -127,21 +127,21 @@ const Dashboard = () => {
         <div className="space-y-4">
           {(showCart ?cartItems : wishList).map((item) => (
             <div
-              key={item.product_id}
+              key={item?.product_id}
               className="flex items-start gap-4 p-4 bg-white rounded-lg shadow"
             >
-              <img src={item.product_image} alt="" className="w-16 h-16" />
+              <img src={item?.product_image} alt="" className="w-16 h-16" />
               <div className="flex-1">
                 <div className="flex justify-between">
-                  <h2 className="font-semibold">{item.product_title}</h2>
+                  <h2 className="font-semibold">{item?.product_title}</h2>
                   <button
-                    onClick={() => showCart ? removeCartItem(item.product_id) : removeWishlistItem(item.product_id)}
+                    onClick={() => showCart ? removeCartItem(item?.product_id) : removeWishlistItem(item.product_id)}
                     className="text-gray-400 hover:text-gray-600 border-2 border-red-600 rounded-full p-1 cursor-pointer"
                   >
                     <RxCross2 className="text-red-600" size={20} />
                   </button>
                 </div>
-                <p className="text-gray-600 text-sm">{item.description}</p>
+                <p className="text-gray-600 text-sm">{item?.description}</p>
                 <p className="mt-1">Price: ${item.price}</p>
                 {!showCart && <button onClick={() => addToCart(item)} className="bg-[#9538E2] mt-2  text-[#fff] py-2 px-4 rounded-full cursor-pointer transition-colors duration-300">Add To Cart</button>}
               </div>
